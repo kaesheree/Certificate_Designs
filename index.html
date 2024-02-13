@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,37 +8,40 @@
     <link rel="stylesheet" href="app.css">
     <script src="app.js"></script>
 </head>
+
 <body>
     <div class="pagewrapper">
         <section class="left">
+            <section class="static_top">
+                <h1>Certificate of</h1>
+            </section>
             <div class="certificate " id="certificate">
                 <span id="nameOutput" class="visible">Test Name</span>
                 <span id="info">Test Info</span><br>
                 <span id="theDate">Is Now</span>
             </div>
-            <section class="static_top">
-                <h1>Certificate of</h1>
-            </section>
+
         </section>
 
         <section class="right">
 
             <form action="" id="myForm">
-    
+
                 <input type="text" name="name" id="name" placeholder="Name">
-        
+
                 <select name="type" id="type">
-                    <option value="Creating Designs with Figma">Creating Designs with Figma</option>
-                    <option value="Certificate of yapping">certificate of yapping</option>
-                    <option value="Certificate of Appreciation">Certificate of Appreciation</option>
+                    <option value="A">Creating Designs with Figma</option>
+                    <option value="B">certificate of yapping</option>
+                    <option value="C">Certificate of Appreciation</option>
                 </select>
                 <input type="submit" value="Generate">
                 <input type="button" value="Print" id="print">
                 <input type="button" value="altPrint" onclick="window.print()">
-        
+
             </form>
         </section>
 
-    </div>    
+    </div>
 </body>
+
 </html>

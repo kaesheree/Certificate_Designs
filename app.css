@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-body {
-    background-image: url(certdesigns/cert_bg.png);
-    background-repeat: no-repeat;
-    margin: 0;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -15,7 +9,7 @@ body {
     height: 100vh;
 }
 
-.left{
+.left {
     width: 75vw;
     padding: 1em;
 }
@@ -27,17 +21,30 @@ body {
 }
 
 .number1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: red;
+    background-image: url("images/cert_bg.png");
+    height: 100vh;
+    width: 100em;
+    background-repeat: no-repeat;
 }
 
 .number2 {
-    color: blue
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    background-image: url("images/cert_bg2.jpg");
+    height: 100vh;
+    width: 100em;
+    background-repeat: no-repeat;
 }
 
 .number3 {
     color: blueviolet;
 }
-
 
 .certificate {
     text-align: left;
